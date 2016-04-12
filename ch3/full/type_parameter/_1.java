@@ -1,5 +1,7 @@
 package ch3.full.type_parameter;
 
+import java.io.*;
+
 class _1 {
 //https://docs.oracle.com/javase/specs/jls/se8/html/jls-4.html#jls-4.4
 
@@ -28,3 +30,8 @@ class Third {
 class Fourth {
 <T> Fourth() {}
 }
+
+/*there is no such thing as a lower bound for a type parameter.*/
+class Fifth<N extends Number> {}
+//class Sixth<T super IOException> {}
+
