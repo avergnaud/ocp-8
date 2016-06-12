@@ -1,0 +1,23 @@
+package quizz;
+
+class Parent {
+static void print() {System.out.println("hi");}
+}
+
+class Enfant extends Parent {}
+
+interface I {
+static void print() {System.out.println("hi");}
+}
+
+class E implements I {}
+
+public class _0014 {
+public static void main(String... args) {
+	Enfant e = new Enfant();
+	e.print();
+
+	E e2 = new E();
+	e2.print();
+}
+}

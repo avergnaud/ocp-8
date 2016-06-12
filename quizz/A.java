@@ -1,0 +1,3 @@
+package quizz;
+
+class B {}
