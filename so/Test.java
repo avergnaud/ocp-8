@@ -37,4 +37,4 @@ LinkedHashMap<Integer,List<Item>> myMap = myList
 
 out.println(myMap);
 
-}}
+}}//Assurance Auto - Nouvelle Voiture Aiguilleur
