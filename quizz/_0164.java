@@ -12,8 +12,23 @@ public static void main(String... args) {
 }
 
 static <T> void get(T... t) {
-Object[] o = t;
+Object[] o = t;	
 o[0] = new Integer(1);
 }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//http://stackoverflow.com/questions/26190476/converting-an-array-of-primitives-to-list-using-arrays-aslist
