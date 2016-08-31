@@ -13,16 +13,43 @@ http://stackoverflow.com/questions/2536692/a-simple-scenario-using-wait-and-noti
 */
 package oracle.threads;
 
-class FixedSized<T> {
-	final T[] store;
+import java.util.*;
 
-	public FixedSized(T[] initial) {
-		store = initial;
+class FixedSized<T> {
+	private Queue<T> queue = new LinkedList<T>();
+    	private int capacity;
+
+	public FixedSized(int capacity) {
+        	this.capacity = capacity;
+    	}
+	
+	synchronized void /*to get the lock for this*/ put(T t) {
+		while(queue.size() >= capacity) {
+			try {			
+				this.wait();
+				/*then the thread releases the lock on this
+				and suspends execution*/
+			} catch(InterruptedException e) {return;}
+		}
+		queue.add(t);
+		notifyAll();/*notify all threads waiting for take()*/	
+	}
+
+	synchronized T take() {
+		while(queue.isEmpty()) {
+			try {
+				this.wait();
+			} catch(InterruptedException e) {
+				return null;
+			}
+		}
+		T item = queue.remove();
+        	notifyAll();/*notify all threads waiting for put()*/
+        	return item;
 	}
 }
 
 public class BlockingQueue {
 public static void main(String... args) {
-	String[] initialStore = new String[3];
-	FixedSized<String> myFixedSized = new FixedSized<>(initialStore); 
+ 
 }}
