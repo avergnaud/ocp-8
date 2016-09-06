@@ -39,6 +39,8 @@ class FixedSized<T> {
 		while(queue.isEmpty()) {
 			try {
 				this.wait();
+				/*then the thread releases the lock on this
+				and suspends execution*/
 			} catch(InterruptedException e) {
 				return null;
 			}
