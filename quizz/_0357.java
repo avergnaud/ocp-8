@@ -3,7 +3,7 @@ package quizz;
 import static java.lang.System.out;
 import java.util.*;
 
-public class _0337 {
+public class _0357 {
 public static void main(String... args) {
 
 LinkedList<String> ll = new LinkedList<>();

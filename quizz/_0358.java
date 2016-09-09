@@ -3,7 +3,7 @@ package quizz;
 import static java.lang.System.out;
 import java.util.*;
 
-public class _0338 {
+public class _0358 {
 public static void main(String... args) {
 
 Integer a1 = 100;

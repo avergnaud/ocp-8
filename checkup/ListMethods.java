@@ -1,10 +1,12 @@
-#Common Collection Methods
+#from Collection
 boolean add(E element)
 boolean remove(Object object)
 boolean contains(Object object)
 int size()
 boolean isEmpty()
 void clear()
+default Stream<E> stream()
+default Stream<E> parallelStream()
 
 #List methods
 void add(int index,E element)
