@@ -13,3 +13,7 @@ void forEach(Consumer<? super T> consumer)
 #from BaseStream
 S parallel()
 boolean isParallel()
+
+findfirst /* operation based on order */
+limit /* operation based on order */
+skip /* operation based on order */
