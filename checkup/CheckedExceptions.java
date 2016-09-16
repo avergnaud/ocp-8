@@ -1,2 +1,8 @@
 java.util.concurrent.BrokenBarrierException
 java.io.NotSerializableException
+ClassNotFoundException
+EOFException
+java.net.URISyntaxException
+java.nio.file.FileAlreadyExistsException
+java.nio.file.NoSuchFileException
+java.nio.file.DirectoryNotEmptyException

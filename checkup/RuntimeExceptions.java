@@ -1,3 +1,4 @@
 java.util.NoSuchElementException
 java.util.ConcurrentModificationException
 java.lang.IllegalStateException
+java.lang.IllegalArgumentException
