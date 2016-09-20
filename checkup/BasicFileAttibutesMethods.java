@@ -1,0 +1,11 @@
+isDirectory
+isRegularFile
+isSymbolicLink
+isOther
+
+size
+lastModifiedTime
+lastAccessTime
+
+creationTime
+fileKey
