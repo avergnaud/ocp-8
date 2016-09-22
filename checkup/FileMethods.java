@@ -7,6 +7,7 @@ long length()
 String getAbsolutePath()
 String getName()
 long lastModified()
+boolean setLastModified(long time)
 
 String getParent()
 File[] listFiles()
@@ -17,3 +18,5 @@ boolean mkdir()
 boolean mkdirs()
 
 toPath
+
+isHidden

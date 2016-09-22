@@ -6,3 +6,4 @@ java.net.URISyntaxException
 java.nio.file.FileAlreadyExistsException
 java.nio.file.NoSuchFileException
 java.nio.file.DirectoryNotEmptyException
+SQLException
