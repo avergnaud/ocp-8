@@ -1,0 +1,5 @@
+static ResourceBundle getBundle(String baseName)
+static ResourceBundle getBundle(String baseName, Locale locale)
+String getString(String key)
+Set<String> keySet()
+Object getObject(String key)

@@ -3,7 +3,7 @@ package quizz;
 import static java.lang.System.out;
 import java.util.*;
 
-public class _0161 {
+public class _0164 {
 
 public static void main(String... args) {
 	List<String> l = Arrays.asList("one","two");

@@ -1,0 +1,5 @@
+int	get()
+int	getAndIncrement()
+int	incrementAndGet()
+int	getAndDecrement()
+int	decrementAndGet()

@@ -9,13 +9,13 @@ out.println("meth");
 } 
 }
 
-public class _0080 {
+public class _0541 {
 
 public static void main(String... args) {
 
 Some<? extends Number> some = new Some<Integer>();
 
-Some.<? extends Number>meth();//même pas sur http://www.angelikalanger.com/GenericsFAQ
+Some.<String>meth();
 
 }
 }

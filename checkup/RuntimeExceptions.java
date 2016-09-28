@@ -1,4 +1,8 @@
 java.util.NoSuchElementException
 java.util.ConcurrentModificationException
+java.util.MissingResourceException
 java.lang.IllegalStateException
+java.time.format.DateTimeParseException
 java.lang.IllegalArgumentException
+java.lang.NumberFormatException
+

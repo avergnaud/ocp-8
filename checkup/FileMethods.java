@@ -17,6 +17,6 @@ boolean renameTo(File dest)
 boolean mkdir()
 boolean mkdirs()
 
-toPath
+Path toPath()
 
-isHidden
+boolean isHidden()

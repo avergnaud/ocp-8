@@ -8,13 +8,18 @@ Stream<T> filter(Predicate<? super T> predicate)
 <R> Stream<R> map(Function<? super T,? super R> mappingFunction)
 
 void forEach(Consumer<? super T> consumer)
+
 <R> R collect(Supplier<R> supplier, BiConsumer<R, ? super T> accumulator, BiConsumer<R,R> combiner) /*https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html#collect-java.util.function.Supplier-java.util.function.BiConsumer-java.util.function.BiConsumer-*/
+
+<R> R collect(Collector<>)
 
 U <U> reduce(U identity,
 	BiFunction<U,? super T,U> accumulator
 	BinaryOperator<U> combiner)
+
 T reduce(T identity,
 	BinaryOperator<T> accumulator)
+
 Optional<T> reduce(BinaryOperator<T> accumulator)
 
 #from BaseStream

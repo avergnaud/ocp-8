@@ -8,8 +8,9 @@ public static void main(String... args) {
 
 double[] a = new double[2];
 
-for(double[] b : Arrays.asList(a))
+for(double[] b : Arrays.asList(a)) {
 	out.println(b);
+}
 
 }}
 

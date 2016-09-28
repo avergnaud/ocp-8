@@ -8,4 +8,4 @@ boolean isCancelled()
 
 boolean cancel(boolean mayInterruptIfRunning)
 
-V get(long amount, TimeUnit unit) throws InterruptedException, ExecutionException, TimeoutException
+V get(long amount, java.util.concurrent.TimeUnit unit) throws InterruptedException, ExecutionException, TimeoutException

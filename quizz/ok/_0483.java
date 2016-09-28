@@ -20,7 +20,7 @@ public class _0483 {
 		
 		try {
 			Files.move(
-				Paths.get("C:\\a"),/*assume a empty*/
+				Paths.get(".").resolve(Paths.get("a")),/*assume a empty*/
 				Paths.get(".").resolve(Paths.get("b")));
 		} catch (IOException e) {
 			out.println("cannot move accross drives");

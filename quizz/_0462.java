@@ -15,7 +15,8 @@ public class _0462 {
 		out.println(parent);
 		out.println(path.getRoot());
 		
-		path = Paths.get("D:\\dt\\avergnaud\\ocp-8\\quizz");
+		//path = Paths.get("D:\\dt\\avergnaud\\ocp-8\\quizz");
+		path = Paths.get("/home/ubuntu/dev/git/avergnaud/ocp-8/quizz");
 		out.println(path.getParent());
 		out.println(path.getRoot());
 		out.println(path.getName(0));
