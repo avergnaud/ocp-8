@@ -4,4 +4,5 @@ static <T> Optional<T> empty()
 
 boolean isPresent()
 void ifPresent(Consumer<? super T> consumer)
-T get()
+
+T get() /* when empty throws NoSuchElementException */

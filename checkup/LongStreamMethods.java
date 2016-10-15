@@ -1,8 +1,7 @@
 
 #LongStream
 
-#collect
-<R> R collect(Collector<> collector)
+#collect ! 1 method !
 <R> R collect(Supplier<R> supplier,
 	ObjLongConsumer<R> accumulator,
 	BiConsumer<R,R> combiner)

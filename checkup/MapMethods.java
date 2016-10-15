@@ -11,3 +11,5 @@ int size()
 Set<K> keySet()
 Collection<V> values()
 Set<Map.Entry<K,V>> entrySet()
+
+merge

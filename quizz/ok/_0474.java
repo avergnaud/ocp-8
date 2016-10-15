@@ -7,8 +7,8 @@ import java.io.*;
 public class _0474 {
 	public static void main(String... args) {
 		
-		Path dt = Paths.get("D:\\dt");
-		Path autre = Paths.get("D:\\test\\autre");
+		Path dt = Paths.get("/home/ubuntu/dev/git/avergnaud/ocp-8");
+		Path autre = Paths.get("/home/ubuntu/dev/git/avergnaud/test/autre");
 		Path autreRelativeToDt = dt.relativize(autre);
 		Path autre2 = dt.resolve(autreRelativeToDt);
 		out.println(autre2);

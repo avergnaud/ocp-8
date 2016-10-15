@@ -16,6 +16,7 @@ public static void main(String... args) {
 try(JammedTurkeyCage t = new JammedTurkeyCage()) {
 throw new RuntimeException("turkeys ran out !");
 } catch(IllegalStateException e) {
+out.println("in catch clause");
 out.println(e.getMessage());
 for(Throwable t : e.getSuppressed()) {
 out.println(t.getMessage());

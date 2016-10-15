@@ -46,6 +46,22 @@ static long copy(InputStream in,
                         CopyOption... options)
                  throws IOException
 
+static BufferedReader newBufferedReader(Path path)
+                                        throws IOException
+
+static BufferedReader newBufferedReader(Path path,
+                                               Charset cs)
+                                        throws IOException
+
+static BufferedWriter newBufferedWriter(Path path,
+                                               OpenOption... options)
+                                        throws IOException
+
+static BufferedWriter newBufferedWriter(Path path,
+                                               Charset cs,
+                                               OpenOption... options)
+                                        throws IOException
+
 // !
 static List<String> readAllLines(Path) throws IOException
 
@@ -58,11 +74,16 @@ public static Path setOwner(Path path,
                             UserPrincipal owner)
                      throws IOException
 
+/*
+Attributes
+*/
 static <A extends BasicFileAttributes> A readAttributes(Path path, Class<A> type, LinkOption... options)
 
-static <V extends FileAttributeView> V getFileAttributeView()
+static <V extends FileAttributeView> V getFileAttributeView(Path path, Class<A> type, LinkOption... options)
 
-/* io streams AND Stream ! */
+/* 
+io streams AND Stream ! 
+*/
 Stream<Path> walk(Path path) throws IOException
 
 Stream<Path> walk(Path, int) throws IOException

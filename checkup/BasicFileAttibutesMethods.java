@@ -1,11 +1,12 @@
-isDirectory
-isRegularFile
-isSymbolicLink
-isOther
+boolean isDirectory()
+boolean isRegularFile()
+boolean isSymbolicLink()
+boolean isOther()
 
-size
-lastModifiedTime
-lastAccessTime
+long size()
+FileTime lastModifiedTime()
+FileTime lastAccessTime()
 
-creationTime
-fileKey
+FileTime creationTime()
+
+Object fileKey()

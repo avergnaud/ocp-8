@@ -62,7 +62,7 @@ List<MyStuff> ms = Arrays.asList(
 	new MyStuff("toto",2),
 	new MyStuff("chabo",3));
 persist(ms, new File("0444.txt"));
-ms = null;     ,kku,  
+ms = null;
 List<MyStuff> then = getBack(new File("0444.txt"));
 out.println(then);
 }}
