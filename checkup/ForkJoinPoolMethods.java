@@ -1,3 +1,6 @@
 Class ForkJoinPool
 
-public <T> T invoke(ForkJoinTask<T> task)
+//constructor
+ForkJoinPool(int)
+
+public <T> T invoke(ForkJoinTask<T> task) throws ?
