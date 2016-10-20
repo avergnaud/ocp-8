@@ -25,7 +25,9 @@ new MyBean("last")
 );
 
 Map<String,MyBean> map = liste.stream()
-	.collect(Collectors.toMap());
+	.collect(Collectors.toMap(
+		myBean->myBean.getName(),
+		myBean->myBean));
 
 System.out.println(map);
 

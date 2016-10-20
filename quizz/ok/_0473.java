@@ -8,7 +8,7 @@ public class _0473 {
 	public static void main(String... args) {
 		
 		Path path = Paths.get("test");
-		Path another = Paths.get("D:\\dt\\avergnaud\\ocp-8\\quizz");
+		Path another = Paths.get("/home/ubuntu/dev/git/avergnaud/ocp-8/quizz");
 		out.println(path.resolve(another));	
 	}
 }

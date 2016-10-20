@@ -1,6 +1,4 @@
 
-BasicFileAttributes readAttibutes()
+BasicFileAttributes readAttibutes() throws IOException
 
-setTimes(FileTime lastModified, FileTime lastAccess, FileTime creation)
-
-
+void setTimes(FileTime lastModified, FileTime lastAccess, FileTime creation) throws IOException

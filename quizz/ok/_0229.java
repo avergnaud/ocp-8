@@ -6,7 +6,7 @@ public class _0229 {
 
 public static void main(String... args) {
 
-try(AutoCloseable a = _0228::impl) {
+try(AutoCloseable a = _0229::impl) {
 
 } catch(Exception e) {
 out.println("hi");

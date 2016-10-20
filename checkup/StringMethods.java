@@ -1,5 +1,7 @@
 #String : final, immutable
 
+static String valueOf(...)
+
 String()
 String(String original)
 String(byte[])
@@ -28,4 +30,3 @@ boolean isEmpty()
 boolean contains(charSequence cs)
 boolean startsWith(String another)
 boolean endsWith(String another)
-

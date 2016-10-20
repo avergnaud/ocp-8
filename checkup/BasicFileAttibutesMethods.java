@@ -1,12 +1,12 @@
-boolean isDirectory()
+
 boolean isRegularFile()
+boolean isDirectory()
 boolean isSymbolicLink()
 boolean isOther()
 
 long size()
-FileTime lastModifiedTime()
-FileTime lastAccessTime()
-
 FileTime creationTime()
+FileTime lastAccessTime()
+FileTime lastModifiedTime()
 
-Object fileKey()
+//Object fileKey()
