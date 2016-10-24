@@ -6,7 +6,7 @@ import java.io.*;
 
 public class _0461 {
 	public static void main(String... args) {
-		Path p1 = Paths.get("D:\\dt\\avergnaud\\ocp-8\\checkup");
+		Path p1 = Paths.get("/home/ubuntu/dev/git/avergnaud/ocp-8/checkup");
 		out.println(p1.toString());
 		for(int i=0;i<p1.getNameCount();i++) {
 			Path p = p1.getName(i);

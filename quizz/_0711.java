@@ -2,12 +2,12 @@ package quizz;
 
 import static java.lang.System.out;
 
-public class _0610 {
 
-static int i;
+public class _0711 {
 
-static class SNC {out.println(i);}
-
+/*execute with java -ea quizz._0711*/
 public static void main(String... args) {
+
+assert true : "hello";
 
 }}

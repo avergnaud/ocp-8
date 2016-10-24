@@ -15,7 +15,7 @@ void forEach(Consumer<? super T> consumer)
 
 <R> R collect(Collector<>)
 
-U <U> reduce(U identity,
+<U> U reduce(U identity,
 	BiFunction<U,? super T,U> accumulator
 	BinaryOperator<U> combiner)
 

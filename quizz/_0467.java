@@ -7,7 +7,7 @@ import java.io.*;
 public class _0467 {
 	public static void main(String... args) {
 		
-		Path path = Paths.get("D:\\dt\\avergnaud\\ocp-8\\quizz");
+		Path path = Paths.get("/home/ubuntu/dev/git/avergnaud/ocp-8/quizz");
 		out.println(path.subPath(0,2));
 	}
 }
