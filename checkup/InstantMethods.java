@@ -6,11 +6,10 @@ static Instant now()
 
 static Instant ofEpochSecond(long)
 static Instant ofEpochMilli(long epochMilli)
-long toEpochMilli()
-
 static Instant parse(CharSequence text) /* 2007-12-03T10:15:30.00Z */
 
-public long getEpochSecond()
+long getEpochSecond()
+long toEpochMilli()
 
 boolean isAfter(Instant otherInstant)
 boolean isBefore(Instant otherInstant)
