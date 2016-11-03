@@ -3,6 +3,7 @@ package quizz;
 import static java.lang.System.out;
 import java.util.function.*;
 import java.util.*;
+import java.util.stream.*;
 
 /* Set vs Map */
 public class _0742 {
@@ -24,13 +25,14 @@ out.println();
 
 Set<String> s2 = Stream.of("1","1")
 	.collect(Collectors.toSet());
-out.printtln(s2);
+out.println(s2);
 
 out.println();
 
-Map<String,Integer> map2 = Stream.of("1","1)
+Map<String,Integer> map2 = Stream.of("1","1")
 	.collect(Collectors.toMap(
-			(k,v)-> ?
+					Function.identity(),
+					Integer::new
 				));
 
 

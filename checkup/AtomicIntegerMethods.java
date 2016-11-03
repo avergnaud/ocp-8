@@ -2,11 +2,13 @@
 AtomicInteger()
 AtomicInteger(int)
 
-int	get()
-int	getAndIncrement()
-int	incrementAndGet()
-int	getAndDecrement()
-int	decrementAndGet()
+final boolean compareAndSet(int expect, int update)
 
-int addAndGet(int)
-int getAndAdd(int)
+final int	get()
+final int	getAndIncrement()
+final int	incrementAndGet()
+final int	getAndDecrement()
+final int	decrementAndGet()
+
+final int addAndGet(int)
+final int getAndAdd(int)

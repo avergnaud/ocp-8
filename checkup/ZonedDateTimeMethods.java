@@ -6,6 +6,9 @@ static ZonedDateTime of(LocalDateTime ldt, ZoneId id)
 static ZonedDateTime of(LocalDate ld, LocalTime lt, ZoneId id)
 static ZonedDateTime of(int year, int month, int dayOfMonth, int hour, int min, int s, int nanoSeconds,ZoneId)
 
+// !!!
+static ofInstant
+
 String format(DateTimeFormatter formatter)
 static ZonedDateTime parse(CharSequence text)
 

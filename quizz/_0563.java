@@ -8,6 +8,6 @@ public static void main(String... args) {
 
 Number i = new Integer(5);
 
-double d = (double)i;
+double d = (double) i;
 
 }}

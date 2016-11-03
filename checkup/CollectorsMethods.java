@@ -20,7 +20,7 @@ static Collector<> groupingByConcurrent(Function<? super T,? extends K> classifi
 
 
 static Collector<> groupingByConcurrent(Function<? super T,? extends K> classifier,
-	Supplier<M> mapFactory,	
+	Supplier<M> mapFactory,
 	Collector<> downstream)
 
 static Collector<> groupingBy(Function<? super T,? extends K> classifier)
@@ -28,3 +28,13 @@ static Collector<> groupingBy(Function<? super T,? extends K> classifier)
 static Collector<> groupingBy(Function<? super T,? extends K> classifier, Collector<>)
 
 static Collector<> groupingBy(Function<? super T,? extends K> classifier, Supplier<M> mapFactory, Collector<>)
+
+static <T> Collector<> partitioningBy(Predicate<? super T> predicate)
+
+static <T> Collector<> partitioningBy(Predicate<? super T> predicate, Collector<> downstream)
+
+static <T> Collector<> counting()
+
+static Collector<> joining()
+
+static Collector<> joining(CharSequence delimiter)

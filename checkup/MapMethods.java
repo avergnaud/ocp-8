@@ -28,3 +28,5 @@ default void forEach(BiConsumer<? super K,? super V> action)
 //getOrDefault !!!
 
 default V getOrDefault(Object key, V defaultValue)
+
+default V putIfAbsent(K key, V value) /* Any implementation providing atomicity guarantees must override this method and document its concurrency properties. */

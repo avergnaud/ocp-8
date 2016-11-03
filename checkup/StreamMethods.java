@@ -28,6 +28,18 @@ Optional<T> reduce(BinaryOperator<T> accumulator)
 S parallel()
 boolean isParallel()
 
+Optional<T> findAny()
+
 findfirst /* operation based on order */
 limit /* operation based on order */
 skip /* operation based on order */
+
+Stream<T> sorted()
+Stream<T> sorted(Comparator<? super T> comparator)
+
+static <T> Stream<T> concat(Stream<? extends T> a,
+                            Stream<? extends T> b)
+
+Optional<T> min(Comparator<? super T> comparator)
+
+Optional<T> max(Comparator<? super T> comparator)

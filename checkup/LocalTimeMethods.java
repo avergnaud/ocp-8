@@ -12,3 +12,8 @@ LocalTime plusMinutes(long)
 LocalTime plusSeconds(long)
 
 LocalTime plusNanos(long)
+
+// !!!
+public static LocalTime parse(CharSequence text)
+
+public static LocalTime parse(CharSequence text, DateTimeFormatter formatter)
