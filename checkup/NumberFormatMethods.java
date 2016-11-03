@@ -14,4 +14,7 @@ static NumberFormat getPercentInstance(Locale inLocale)
 static NumberFormat getIntegerInstance()
 static NumberFormat getIntegerInstance(Locale inLocale)
 
-Number parse(String s) throws ParseException
+Number parse(String s) throws java.text.ParseException
+
+final String format(long number)
+final String format(double number)
