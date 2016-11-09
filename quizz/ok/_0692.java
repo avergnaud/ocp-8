@@ -19,7 +19,7 @@ public class _0692 {
 
 static String some() {
   throw new NullPointerException();
-  return "":
+  return "";
 }
 
 public static void main(String... args) {

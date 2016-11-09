@@ -29,3 +29,9 @@ Duration minusNanons(long)
 
 public static Duration between(Temporal startInclusive,
                                Temporal endExclusive)
+
+long toDays()
+long toHours()
+long toMinutes()
+long toMillis()
+long toNanos()
