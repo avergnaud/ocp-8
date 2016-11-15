@@ -51,13 +51,10 @@ static <A extends BasicFileAttributes> A readAttributes(Path path, Class<A> type
 static List<String> readAllLines(Path) throws IOException
 // !
 static Stream<String> lines(Path path) throws IOException
+
 // reste au niveau 1 - first level of the file tree :
 static Stream<Path> list(Path) throws IOException
 
-
-/*
-io streams AND Stream !
-*/
 //visits all levels of the file tree
 static Stream<Path> walk(Path path, FileVisitOption... options) throws IOException
 

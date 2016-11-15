@@ -3,7 +3,7 @@ package quizz;
 import java.io.*;
 import java.util.*;
 
-public class _0756 {
+public class _0755 {
 
 public static void main(String... args) {
 
