@@ -8,7 +8,7 @@ public class _0696 {
 
 public static void main(String... args) {
 
-Path thisPath = Paths.get("quizz/_0694.java");
+Path thisPath = Paths.get("quizz/_0696.java");
 try {
   BasicFileAttributes bfa = Files.readAttributes(thisPath,BasicFileAttributes.class);
   out.println(bfa);

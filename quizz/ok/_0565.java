@@ -12,7 +12,7 @@ throw new NullPointerException("could not complete task");
 
 public static void main(String... args) {
 
-Runnable failing = _0265::failing;
+Runnable failing = _0565::failing;
 
 ExecutorService executor = Executors.newSingleThreadExecutor();
 try {

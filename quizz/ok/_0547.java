@@ -10,6 +10,6 @@ public static void main(String... args) {
 Integer i = 1;
 Object o = i;
 out.println(i == 0);
-
+out.println(i == o);
 
 }}

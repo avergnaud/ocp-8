@@ -8,7 +8,7 @@ import java.io.*;
 public class _0523 {
 public static void main(String... args) {
 
-Path hello = Paths.get(".").resolve(Paths.get("quizz/_0520.java"));
+Path hello = Paths.get(".").resolve(Paths.get("quizz/_0523.java"));
 
 try {
 out.println(Files.isDirectory(hello));

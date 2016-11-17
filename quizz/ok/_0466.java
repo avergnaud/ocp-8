@@ -11,7 +11,7 @@ assume user current working directory is D:\dt\avergnaud\ocp-8\
 public class _0466 {
 	public static void main(String... args) {
 		
-		Path path = Paths.get("D:\\dt\\avergnaud\\ocp-8\\quizz");
+		Path path = Paths.get("/home/ubuntu/dev/git/avergnaud/ocp-8/quizz");
 		Path absolute = path.toAbsolutePath();
 		out.println(path == absolute);
 		

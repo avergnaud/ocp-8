@@ -8,7 +8,7 @@ import java.util.*;
 /*
 assume /home/ubuntu/dev/git/avergnaud/ocp-8/ch8Print.txt exists
 */
-public class _0497 {
+public class _0498 {
 	public static void main(String... args) {
 
 Path path = Paths.get("/home/ubuntu/dev/git/avergnaud/ocp-8/ch8Print.txt");
