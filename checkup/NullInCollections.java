@@ -1,3 +1,4 @@
+/* List, Queue, Deque, LinkedList, Set, Map */
 
 Vector<E> implements Collection<E>, List<E>
 	does allow null
@@ -35,10 +36,9 @@ Hashtable<K,V> implements Map<K,V>
 HashMap<K,V> implements Map<K,V>
 	does allow null K or V
 TreeMap<K,V> implements Map<K,V>, SortedMap<K,V>, NavigableMap<K,V>
-	does NOT allow nulle if this map uses natural ordering, or its comparator does not permit null keys
+	does NOT allow null if this map uses natural ordering, or its comparator does not permit null keys
 ConcurrentHashMap<K,V> implements Map<K,V>, ConcurrentMap<K,V>
 	does NOT allow null K or V
 ConcurrentSkipListMap<K,V> implements Map<K,V>, ConcurrentMap<K,V>, SortedMap<K,V>, NavigableMap<K,V>, ConcurrentNavigableMap<K,V>
 	does NOT allow null K or V
 ...
-

@@ -34,3 +34,5 @@ long lastModified()
 boolean setLastModified(long time)
 
 File[] listFiles()
+
+String[] list()

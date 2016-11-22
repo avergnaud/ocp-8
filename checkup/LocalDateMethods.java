@@ -12,3 +12,5 @@ public Month getMonth()
 public int getDayOfMonth()
 public int getDayOfYear()
 public DayOfWeek getDayOfWeek()
+
+withMonth

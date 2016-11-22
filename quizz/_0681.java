@@ -8,7 +8,7 @@ public class _0681 {
 
 public static void main(String... args) {
 
-Path path = Paths.get("quizz/_0680.java");
+Path path = Paths.get("quizz/_0681.java");
 String name = path.getFileName();
 out.println(name);
 

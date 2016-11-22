@@ -7,6 +7,10 @@ public Integer(String s) /*throws NumberFormatException extends IllegalArgumentE
 public static Integer valueOf(int i)
 public static Integer valueOf(String s) /*throws NumberFormatException extends IllegalArgumentException extends RuntimeException*/
 
+public static Integer decode(String nm) /*throws NumberFormatException extends IllegalArgumentException extends RuntimeException*/
+
+public static int parseInt(String s) /*throws NumberFormatException extends IllegalArgumentException extends RuntimeException*/
+
 // !!!
 public static String toString(int i)
 // !!!

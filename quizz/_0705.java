@@ -10,9 +10,9 @@ public class _0705 {
 public static void main(String... args) {
 
 /* current work dir is /home/ubuntu/dev/git/avergnaud/ocp-8 */
-Path path = Paths.get(".");
+Path path = Paths.get("");
 
-out.println(path.normalize());
+//out.println(path.normalize());
 
 try {
   out.println(path.toRealPath());

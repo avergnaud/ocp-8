@@ -10,6 +10,6 @@ public class _0496 {
 
 Path p = Paths.get(".");
 out.println(Files.size(p));
-
+out.println(p.toRealPath());
 	}
 }

@@ -12,3 +12,5 @@ final int	decrementAndGet()
 
 final int addAndGet(int)
 final int getAndAdd(int)
+
+xxxValue
